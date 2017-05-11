@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		040E80781EC1CD2000A603F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E80771EC1CD2000A603F4 /* main.m */; };
 		040E807B1EC1CD2000A603F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E807A1EC1CD2000A603F4 /* AppDelegate.m */; };
-		040E807E1EC1CD2000A603F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E807D1EC1CD2000A603F4 /* ViewController.m */; };
-		040E80811EC1CD2000A603F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E807F1EC1CD2000A603F4 /* Main.storyboard */; };
 		040E80831EC1CD2000A603F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040E80821EC1CD2000A603F4 /* Assets.xcassets */; };
 		040E80861EC1CD2000A603F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040E80841EC1CD2000A603F4 /* LaunchScreen.storyboard */; };
+		8EED250E5D96958EF34D5FD3 /* libPods-喵播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 541DC099D2CA5F1D615F689A /* libPods-喵播.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +19,12 @@
 		040E80771EC1CD2000A603F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		040E80791EC1CD2000A603F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		040E807A1EC1CD2000A603F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		040E807C1EC1CD2000A603F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		040E807D1EC1CD2000A603F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		040E80801EC1CD2000A603F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040E80821EC1CD2000A603F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040E80851EC1CD2000A603F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040E80871EC1CD2000A603F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074C69B6C5BB6774658D0DF7 /* Pods-喵播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-喵播.release.xcconfig"; path = "Pods/Target Support Files/Pods-喵播/Pods-喵播.release.xcconfig"; sourceTree = "<group>"; };
+		17840F1BAF181879A021B6E2 /* Pods-喵播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-喵播.debug.xcconfig"; path = "Pods/Target Support Files/Pods-喵播/Pods-喵播.debug.xcconfig"; sourceTree = "<group>"; };
+		541DC099D2CA5F1D615F689A /* libPods-喵播.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-喵播.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EED250E5D96958EF34D5FD3 /* libPods-喵播.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +44,8 @@
 			children = (
 				040E80751EC1CD2000A603F4 /* 喵播 */,
 				040E80741EC1CD2000A603F4 /* Products */,
+				C0398823429806EB1B0D626E /* Pods */,
+				5D938B410F374A3E86864F43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +62,12 @@
 			children = (
 				040E80791EC1CD2000A603F4 /* AppDelegate.h */,
 				040E807A1EC1CD2000A603F4 /* AppDelegate.m */,
-				040E807C1EC1CD2000A603F4 /* ViewController.h */,
-				040E807D1EC1CD2000A603F4 /* ViewController.m */,
-				040E807F1EC1CD2000A603F4 /* Main.storyboard */,
+				040E808D1EC1D08300A603F4 /* 登录 */,
+				040E808E1EC1D08300A603F4 /* 短视频 */,
+				040E808F1EC1D08300A603F4 /* 公共 */,
+				040E80901EC1D08300A603F4 /* 我的 */,
+				040E80911EC1D08300A603F4 /* 游戏 */,
+				040E80921EC1D08300A603F4 /* 直播 */,
 				040E80821EC1CD2000A603F4 /* Assets.xcassets */,
 				040E80841EC1CD2000A603F4 /* LaunchScreen.storyboard */,
 				040E80871EC1CD2000A603F4 /* Info.plist */,
@@ -79,6 +84,65 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		040E808D1EC1D08300A603F4 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		040E808E1EC1D08300A603F4 /* 短视频 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "短视频";
+			sourceTree = "<group>";
+		};
+		040E808F1EC1D08300A603F4 /* 公共 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "公共";
+			sourceTree = "<group>";
+		};
+		040E80901EC1D08300A603F4 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		040E80911EC1D08300A603F4 /* 游戏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "游戏";
+			sourceTree = "<group>";
+		};
+		040E80921EC1D08300A603F4 /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		5D938B410F374A3E86864F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				541DC099D2CA5F1D615F689A /* libPods-喵播.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0398823429806EB1B0D626E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17840F1BAF181879A021B6E2 /* Pods-喵播.debug.xcconfig */,
+				074C69B6C5BB6774658D0DF7 /* Pods-喵播.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040E808A1EC1CD2000A603F4 /* Build configuration list for PBXNativeTarget "喵播" */;
 			buildPhases = (
+				72E60DC008077F4B9C781757 /* [CP] Check Pods Manifest.lock */,
 				040E806F1EC1CD2000A603F4 /* Sources */,
 				040E80701EC1CD2000A603F4 /* Frameworks */,
 				040E80711EC1CD2000A603F4 /* Resources */,
+				A9D62F5D8AD2CE5872BD0D39 /* [CP] Embed Pods Frameworks */,
+				5100D1AEEE9CB80F0595A38E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,18 +207,64 @@
 			files = (
 				040E80861EC1CD2000A603F4 /* LaunchScreen.storyboard in Resources */,
 				040E80831EC1CD2000A603F4 /* Assets.xcassets in Resources */,
-				040E80811EC1CD2000A603F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5100D1AEEE9CB80F0595A38E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-喵播/Pods-喵播-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E60DC008077F4B9C781757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D62F5D8AD2CE5872BD0D39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-喵播/Pods-喵播-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		040E806F1EC1CD2000A603F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040E807E1EC1CD2000A603F4 /* ViewController.m in Sources */,
 				040E807B1EC1CD2000A603F4 /* AppDelegate.m in Sources */,
 				040E80781EC1CD2000A603F4 /* main.m in Sources */,
 			);
@@ -160,14 +273,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		040E807F1EC1CD2000A603F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				040E80801EC1CD2000A603F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		040E80841EC1CD2000A603F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -273,6 +378,7 @@
 		};
 		040E808B1EC1CD2000A603F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17840F1BAF181879A021B6E2 /* Pods-喵播.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UFCUZ4TD33;
@@ -285,6 +391,7 @@
 		};
 		040E808C1EC1CD2000A603F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074C69B6C5BB6774658D0DF7 /* Pods-喵播.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UFCUZ4TD33;
